@@ -18,7 +18,7 @@ contract VotingEligibility {
     }
 
     function updateMinAge(uint newMinAge) public {
-        require(msg.sender == owner, "Chỉ chủ sở hữu mới được cập nhật");
+        require(msg.sender == owner, "Only contract owner can update the age");
         minAge = newMinAge;
     }
 }
