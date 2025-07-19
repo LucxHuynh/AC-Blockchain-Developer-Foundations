@@ -1,50 +1,17 @@
-# Dependencies
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Environment variables
+node_modules
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
-# Hardhat artifacts
-cache/
-artifacts/
+# Hardhat files
+/cache
+/artifacts
 
-# ABI data (auto-generated)
-data/abi/
+# TypeChain files
+/typechain
+/typechain-types
 
 # solidity-coverage files
-coverage/
-coverage.json
+/coverage
+/coverage.json
 
 # Hardhat Ignition default folder for deployments against a local node
-ignition/deployments/chain-31337/
-
-# Local deployment files
-deployments/localhost/
-deployments/hardhat/
-
-# Network deployment files (nếu không muốn share)
-deployments/sepolia/
-deployments/mainnet/
-deployments/polygon/
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
-logs/
-*.log
+ignition/deployments/chain-31337
