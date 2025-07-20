@@ -26,7 +26,6 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
 
   console.log("✅ MyNFT deployed to:", deployResult.address);
 
-  // Get contract instance và mint NFT đầu tiên
   const myNFT = await ethers.getContractAt("MyNFT", deployResult.address);
 
   console.log("====================");

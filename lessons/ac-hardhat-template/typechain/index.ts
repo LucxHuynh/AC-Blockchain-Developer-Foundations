@@ -38,6 +38,8 @@ export type { Strings } from "./@openzeppelin/contracts/utils/Strings";
 export { Strings__factory } from "./factories/@openzeppelin/contracts/utils/Strings__factory";
 export type { Counter } from "./contracts/Counter";
 export { Counter__factory } from "./factories/contracts/Counter__factory";
+export type { MyMintableToken } from "./contracts/MyMintableToken";
+export { MyMintableToken__factory } from "./factories/contracts/MyMintableToken__factory";
 export type { MyNFT } from "./contracts/MyNFT";
 export { MyNFT__factory } from "./factories/contracts/MyNFT__factory";
 export type { MyToken } from "./contracts/MyToken";
